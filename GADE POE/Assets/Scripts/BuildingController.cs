@@ -5,6 +5,30 @@ using UnityEngine;
 public class BuildingController : MonoBehaviour
 {
     public int hp = 50;
+
+    [SerializeField] int health, maxHealth;
+    [SerializeField] string team;
+
+
+
+
+
+    public int Health
+    {
+        get { return health; }
+        set { health = value; }
+    }
+
+    public int MaxHaelth
+    {
+        get { return maxHealth; }
+    }
+
+    public string Team
+    {
+        get { return team; }
+    } 
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -16,4 +40,11 @@ public class BuildingController : MonoBehaviour
     {
         
     }
+
+    public void Dead()
+    {
+        Destroy(gameObject);
+    }
+
+   
 }

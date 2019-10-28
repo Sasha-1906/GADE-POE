@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1525050185540631426}
   m_Layer: 0
   m_Name: FactoryBuildingBl
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2217564311960648191}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 12, y: 0.5, z: 2}
+  m_LocalPosition: {x: 4, y: 0.5, z: 7}
   m_LocalScale: {x: 0.02, y: 0.02, z: 0.02}
   m_Children:
   - {fileID: 1682068563884394852}
@@ -45,6 +45,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 60
+  health: 0
+  maxHealth: 0
+  team: 
 --- !u!1 &3446746172641826435
 GameObject:
   m_ObjectHideFlags: 0

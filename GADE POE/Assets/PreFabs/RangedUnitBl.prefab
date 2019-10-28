@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 9057432458493270291}
   m_Layer: 0
   m_Name: RangedUnitBl
-  m_TagString: Untagged
+  m_TagString: Unit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6816094140058301668}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 7, y: 0.5, z: 4}
+  m_LocalPosition: {x: 4, y: 0.5, z: 19}
   m_LocalScale: {x: 0.08, y: 0.08, z: 0.08}
   m_Children:
   - {fileID: 4965365977096916731}
@@ -45,6 +45,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 15
+  health: 0
+  maxHealth: 0
+  speed: 0
+  attack: 0
+  team: 
+  range: 0
 --- !u!1 &8188730109268964125
 GameObject:
   m_ObjectHideFlags: 0
